@@ -249,9 +249,6 @@ describe('POST /users', () => {
     });
 });
 
-
-
-
 describe('POST /users/login', () => {
   it('should login user and return auth token', (done) => {
     request(app)
